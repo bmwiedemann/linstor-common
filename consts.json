@@ -1643,6 +1643,16 @@
                 "type": "string"
         },
         {
+                "name": "KEY_NODE_KO_TIME_LONG",
+                "value": "NodeAliveUntilLong",
+                "type": "string"
+        },
+        {
+                "name": "KEY_NODE_KO_TIME_DATE",
+                "value": "NodeAliveUntilDate",
+                "type": "string"
+        },
+        {
                 "name": "KEY_CUR_STLT_CONN_NAME",
                 "value": "CurStltConnName",
                 "type": "string"
@@ -1804,6 +1814,9 @@
                 "type": "string"
         },
         {
+                "blockcomment": "Cache property keys"
+        },
+        {
                 "name": "KEY_CACHE_OPERATING_MODE",
                 "value": "OpMode",
                 "type": "string"
@@ -1839,6 +1852,9 @@
                 "type": "string"
         },
         {
+                "blockcomment": "Autoplace property keys"
+        },
+        {
                 "name": "KEY_AUTOPLACE_STRAT_WEIGHT_MAX_FREESPACE",
                 "value": "MaxFreeSpace",
                 "type": "string"
@@ -1866,6 +1882,11 @@
         {
                 "name": "KEY_AUTOPLACE_MAX_THROUGHPUT",
                 "value": "MaxThroughput",
+                "type": "string"
+        },
+        {
+                "name": "KEY_SITE",
+                "value": "Site",
                 "type": "string"
         },
         {
@@ -2140,6 +2161,11 @@
                 "type": "string"
         },
         {
+                "name": "KEY_OF_TARGET_PORT_AUTO_RANGE",
+                "value": "OpenflexTargetPortAutoRange",
+                "type": "string"
+        },
+        {
                 "name": "KEY_PREF_NIC",
                 "value": "PrefNic",
                 "type": "string"
@@ -2192,159 +2218,6 @@
         {
                 "name": "KEY_DRBD_PROXY_AUTO_ENABLE",
                 "value": "AutoEnable",
-                "type": "string"
-        },
-        {
-                "blockcomment": "Property keys"
-        },
-        {
-                "name": "KEY_PORT_NR",
-                "value": "PortNr",
-                "type": "string"
-        },
-        {
-                "name": "KEY_IP_ADDR",
-                "value": "IPAddr",
-                "type": "string"
-        },
-        {
-                "name": "KEY_NETCOM_TYPE",
-                "value": "NetComType",
-                "type": "string"
-        },
-        {
-                "name": "KEY_NETIF_NAME",
-                "value": "NetIfName",
-                "type": "string"
-        },
-        {
-                "name": "KEY_NETIF_TYPE",
-                "value": "NetIfType",
-                "type": "string"
-        },
-        {
-                "name": "KEY_NETCOM_ENABLED",
-                "value": "NetComEnabled",
-                "type": "string"
-        },
-        {
-                "name": "KEY_KEYSTORE",
-                "value": "Keystore",
-                "type": "string"
-        },
-        {
-                "name": "KEY_TRUSTSTORE",
-                "value": "Truststore",
-                "type": "string"
-        },
-        {
-                "name": "KEY_KEY_PWD",
-                "value": "KeyPwd",
-                "type": "string"
-        },
-        {
-                "name": "KEY_KEYSTORE_PWD",
-                "value": "KeystorePwd",
-                "type": "string"
-        },
-        {
-                "name": "KEY_TRUSTSTORE_PWD",
-                "value": "TruststorePwd",
-                "type": "string"
-        },
-        {
-                "name": "KEY_SSL_PROTO",
-                "value": "SslProto",
-                "type": "string"
-        },
-        {
-                "name": "KEY_TCP_PORT_AUTO_RANGE",
-                "value": "TcpPortAutoRange",
-                "type": "string"
-        },
-        {
-                "name": "KEY_MINOR_NR_AUTO_RANGE",
-                "value": "MinorNrAutoRange",
-                "type": "string"
-        },
-        {
-                "name": "KEY_GLOBAL_SEQ_API_CALLS",
-                "value": "GlobSeqApiCalls",
-                "type": "string"
-        },
-        {
-                "name": "KEY_OF_TARGET_PORT_AUTO_RANGE",
-                "value": "OpenflexTargetPortAutoRange",
-                "type": "string"
-        },
-        {
-                "name": "KEY_CUR_STLT_CONN_NAME",
-                "value": "CurStltConnName",
-                "type": "string"
-        },
-        {
-                "name": "KEY_PEER_SLOTS_NEW_RESOURCE",
-                "value": "PeerSlotsNewResource",
-                "type": "string"
-        },
-        {
-                "name": "KEY_PEER_SLOTS",
-                "value": "PeerSlots",
-                "type": "string"
-        },
-        {
-                "name": "KEY_ALLOW_LARGER_VOLUME_SIZE",
-                "value": "AllowLargerVolumeSize",
-                "type": "string"
-        },
-        {
-                "name": "KEY_RSC_ROLLBACK_TARGET",
-                "value": "RollbackTarget",
-                "type": "string"
-        },
-        {
-                "name": "KEY_RSC_MIGRATE_FROM",
-                "value": "MigrateFrom",
-                "type": "string"
-        },
-        {
-                "name": "KEY_BIND_ADDR",
-                "value": "bindAddress",
-                "type": "string"
-        },
-        {
-                "name": "KEY_BIND_PORT",
-                "value": "port",
-                "type": "string"
-        },
-        {
-                "name": "KEY_ENABLED",
-                "value": "enabled",
-                "type": "string"
-        },
-        {
-                "name": "KEY_TR_TYPE",
-                "value": "enabled",
-                "type": "string"
-        },
-        {
-                "name": "KEY_PORT",
-                "value": "enabled",
-                "type": "string"
-        },
-        {
-                "name": "KEY_PREF_NIC",
-                "value": "PrefNic",
-                "type": "string"
-        },
-        {
-                "name": "KEY_SEARCH_DOMAIN",
-                "value": "SearchDomain",
-                "type": "string"
-        },
-        {
-                "name": "KEY_SITE",
-                "value": "Site",
                 "type": "string"
         },
         {

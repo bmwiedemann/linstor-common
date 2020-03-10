@@ -553,6 +553,24 @@
             "info": "Time a node can be offline before it is declared DEAD in milliseconds",
             "type": "long"
         },
+        "node_ko_time_long": {
+            "internal": false,
+            "key": [
+                "NAMESPC_NODE",
+                "KEY_NODE_KO_TIME_LONG"
+            ],
+            "info": "The time at which a node will be declared as DEAD if it does not come online earlier in milliseconds",
+            "type": "long"
+        },
+        "node_ko_time_date": {
+            "internal": false,
+            "key": [
+                "NAMESPC_NODE",
+                "KEY_NODE_KO_TIME_DATE"
+            ],
+            "info": "The time at which a node will be declared as DEAD if it does not come online earlier as a string",
+            "type": "string"
+        },
         "drbd_auto_quorum": {
             "internal": false,
             "key":  [
@@ -839,6 +857,8 @@
             "peer_slots_new_resource",
             "dm_stats",
             "node_max_offline_time",
+            "node_ko_time_long",
+            "node_ko_time_date",
             "nvme_tr_type",
             "nvme_port",
             "nvme_preferred_nic",
@@ -889,6 +909,8 @@
             "sys_fs_blkio_throttle_read",
             "sys_fs_blkio_throttle_write",
             "node_max_offline_time",
+            "node_ko_time_long",
+            "node_ko_time_date",
             "writecache_pool_name",
             "writecache_size",
             "writecache_opt_start_sector",
